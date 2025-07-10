@@ -1,0 +1,2081 @@
+id,Image,Category,test_llama_4_bit_all_layers,time_l_4_b_a_l,pixtral_4_bit_all_layers,time_p_4_b_a_l,best_model_prediction,prediction_time,prediction_confidence,full_response,llama_prediction,llama_time,best_model_prediction2,prediction_time2
+1790,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-144.JPG,rust,rust,18.954077,rust,16.577914,scab,18.814051,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,34.725264,rust,21.242268
+811,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-810.JPG,healthy,healthy,1.893365,healthy,2.516306,healthy,1.315185,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,2.129439,healthy,1.660694
+434,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-433.JPG,healthy,healthy,1.889673,scab,1.738705,healthy,1.298045,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.830383,healthy,1.362972
+3130,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-588.JPG,scab,scab,2.051751,scab,2.698335,scab,1.515467,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",scab,2.049176,scab,1.446434
+1866,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-220.JPG,rust,rust,1.906956,rust,2.574658,black-rot,1.587823,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.828771,rust,1.324277
+1583,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1582.JPG,healthy,healthy,1.911186,healthy,2.612160,black-rot,1.617152,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.852316,healthy,1.406136
+1878,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-232.JPG,rust,rust,1.831658,rust,2.576973,scab,1.522184,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.856867,rust,1.345732
+2129,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-208.JPG,black-rot,black-rot,2.269714,healthy,1.995417,black-rot,1.597077,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",healthy,1.892656,black-rot,1.618852
+2152,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-231.JPG,black-rot,black-rot,2.335978,black-rot,2.906792,black-rot,1.567475,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",scab,2.040829,black-rot,1.569535
+3135,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-593.JPG,scab,scab,2.114060,scab,2.718885,scab,1.387862,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",scab,2.021528,scab,1.454106
+2394,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-473.JPG,black-rot,black-rot,2.257859,black-rot,2.913833,black-rot,1.566519,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",scab,2.127749,black-rot,1.610194
+1166,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1165.JPG,healthy,healthy,1.881553,healthy,1.584315,healthy,1.322950,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.846184,healthy,1.342198
+1845,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-199.JPG,rust,rust,1.860094,rust,1.732808,rust,1.285676,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.895607,rust,1.367931
+2079,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-158.JPG,black-rot,black-rot,2.273937,black-rot,2.061451,scab,1.417894,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",rust,1.858950,black-rot,1.693145
+2523,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-602.JPG,black-rot,black-rot,2.295339,black-rot,1.936406,black-rot,1.527749,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",scab,2.058753,black-rot,1.645052
+1090,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1089.JPG,healthy,healthy,1.909079,healthy,1.882191,healthy,1.262595,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",scab,2.035008,healthy,1.342161
+2462,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-541.JPG,black-rot,black-rot,2.259789,black-rot,1.909061,scab,1.440885,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",black-rot,2.218350,black-rot,1.630429
+1805,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-159.JPG,rust,rust,1.899147,,21.751900,rust,1.273004,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.869723,rust,1.329738
+2411,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-490.JPG,black-rot,black-rot,2.258941,black-rot,2.292414,black-rot,1.554375,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",scab,1.988483,black-rot,1.628761
+2651,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-109.JPG,scab,scab,2.151041,scab,1.786354,scab,1.412704,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",scab,2.008743,scab,1.459133
+1830,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-184.JPG,rust,rust,1.878257,rust,1.617305,rust,1.324057,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.801825,rust,1.290418
+1826,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-180.JPG,rust,rust,1.845731,rust,1.627702,scab,1.507000,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.804417,rust,1.342512
+2133,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-212.JPG,black-rot,black-rot,2.263756,black-rot,1.976810,black-rot,1.604544,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",rust,1.825112,black-rot,1.571690
+1727,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-81.JPG,rust,rust,1.900027,rust,1.665282,scab,1.461215,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.853985,rust,1.304091
+1998,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-77.JPG,black-rot,black-rot,2.259290,black-rot,1.963395,scab,1.433668,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",scab,2.000878,black-rot,1.673665
+3155,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-613.JPG,scab,scab,2.105627,scab,2.179762,black-rot,1.583747,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.817422,healthy,1.327214
+2003,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-82.JPG,black-rot,black-rot,2.276126,black-rot,2.111258,black-rot,1.697576,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.834406,healthy,1.308879
+100,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-99.JPG,healthy,healthy,1.887085,healthy,1.809359,healthy,1.275641,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.815122,healthy,1.335166
+1768,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-122.JPG,rust,rust,1.858110,rust,2.134791,black-rot,1.535684,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.854687,rust,1.323293
+1932,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-11.JPG,black-rot,black-rot,2.271311,black-rot,2.131477,scab,1.422919,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",rust,1.814908,black-rot,1.630470
+1236,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1235.JPG,healthy,healthy,1.882157,healthy,2.589275,healthy,1.284930,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.821554,healthy,1.323340
+1870,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-224.JPG,rust,rust,1.843817,rust,1.818974,rust,1.286200,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.834980,rust,1.392989
+1648,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-2.JPG,rust,rust,1.855607,,3.768088,scab,1.425880,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.825503,rust,1.357231
+2249,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-328.JPG,black-rot,black-rot,2.271831,black-rot,1.982246,scab,1.412250,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",scab,2.024333,black-rot,1.617479
+1918,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-272.JPG,rust,rust,1.894494,rust,1.659129,scab,1.394047,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.825006,rust,1.362033
+2274,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-353.JPG,black-rot,black-rot,2.270331,black-rot,1.972254,scab,1.387286,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",scab,2.044305,black-rot,1.613983
+1326,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1325.JPG,healthy,healthy,1.903676,healthy,1.789256,healthy,1.261513,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.867183,healthy,1.329629
+2643,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-101.JPG,scab,scab,2.067678,scab,1.814087,scab,1.447994,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",black-rot,2.227604,scab,1.513529
+3041,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-499.JPG,scab,scab,2.082849,scab,1.977763,scab,1.426882,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",rust,1.818175,scab,1.482057
+2798,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-256.JPG,scab,scab,2.057364,scab,2.748621,black-rot,1.567228,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",scab,2.044345,scab,1.469326
+2847,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-305.JPG,scab,scab,2.057070,scab,2.169598,scab,1.400869,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",rust,1.794844,scab,1.459609
+2803,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-261.JPG,scab,scab,2.079499,healthy,1.646234,scab,1.443333,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",rust,1.827985,scab,1.462757
+2013,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-92.JPG,black-rot,black-rot,2.287483,black-rot,2.037719,black-rot,1.565772,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",scab,2.043473,black-rot,1.624009
+2252,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-331.JPG,black-rot,black-rot,2.313095,rust,2.544080,scab,1.425886,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",scab,2.017307,black-rot,1.616722
+1706,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-60.JPG,rust,rust,1.911954,,7.887450,rust,1.288672,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.820511,rust,1.350442
+2056,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-135.JPG,black-rot,black-rot,2.263623,black-rot,1.954912,healthy,1.299788,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",scab,2.014029,black-rot,1.633865
+1791,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-145.JPG,rust,rust,1.878706,rust,1.628748,black-rot,1.618176,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.827486,rust,1.335062
+1690,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-44.JPG,rust,rust,1.843873,rust,1.672332,black-rot,1.604039,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.824820,rust,1.353699
+2538,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-617.JPG,black-rot,black-rot,2.313854,rust,2.576946,black-rot,1.529145,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.808840,rust,1.347476
+2994,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-452.JPG,scab,scab,2.150528,scab,1.806402,black-rot,1.526639,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",healthy,1.812271,scab,1.450673
+2186,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-265.JPG,black-rot,black-rot,2.278227,black-rot,2.901827,scab,1.387880,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",rust,1.823314,black-rot,1.561954
+304,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-303.JPG,healthy,healthy,1.910313,healthy,1.642158,healthy,1.300979,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.817936,healthy,1.320307
+2718,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-176.JPG,scab,scab,2.064671,scab,1.974155,scab,1.464774,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",scab,1.990225,scab,1.476979
+1019,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1018.JPG,healthy,healthy,1.872910,healthy,1.941864,scab,1.404757,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",black-rot,2.182884,healthy,1.322412
+1697,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-51.JPG,rust,rust,1.883707,rust,2.558242,rust,1.287760,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.857627,rust,1.310694
+1787,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-141.JPG,rust,rust,1.863056,rust,1.629811,rust,1.297704,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",scab,2.055503,rust,1.358269
+494,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-493.JPG,healthy,healthy,1.853673,healthy,1.679604,healthy,1.298540,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",scab,2.027915,healthy,1.350122
+1377,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1376.JPG,healthy,healthy,1.863580,healthy,1.861055,healthy,1.299975,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",scab,2.087780,healthy,1.367389
+2707,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-165.JPG,scab,scab,2.050635,healthy,1.820458,scab,1.413224,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",scab,2.044642,healthy,1.332922
+1762,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-116.JPG,rust,rust,1.907003,rust,2.580658,scab,1.412092,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.926257,rust,1.317078
+681,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-680.JPG,healthy,healthy,1.838802,healthy,2.606167,healthy,1.274843,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.820626,healthy,1.302475
+142,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-141.JPG,healthy,healthy,1.870937,healthy,1.796510,healthy,1.276583,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.805000,healthy,1.316875
+2222,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-301.JPG,black-rot,black-rot,2.238174,black-rot,2.123410,black-rot,1.544001,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",scab,2.024443,black-rot,1.591286
+1895,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-249.JPG,rust,rust,1.897174,rust,1.620040,rust,1.317641,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.810125,rust,1.320077
+1437,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1436.JPG,healthy,healthy,1.876192,healthy,1.668203,healthy,1.259946,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.817937,healthy,1.328361
+1538,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1537.JPG,healthy,healthy,1.867584,healthy,1.618874,healthy,1.290417,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.814014,healthy,1.328159
+2967,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-425.JPG,scab,scab,2.053672,scab,1.799710,black-rot,1.633796,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",rust,1.833541,scab,1.485977
+2516,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-595.JPG,black-rot,black-rot,2.282664,black-rot,2.907076,black-rot,1.562504,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",scab,2.014138,black-rot,1.609622
+290,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-289.JPG,healthy,healthy,1.875457,healthy,1.634105,healthy,1.349205,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.828364,healthy,1.315967
+2614,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-72.JPG,scab,scab,2.051069,scab,1.969490,scab,1.414634,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",rust,1.798973,scab,1.453808
+2208,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-287.JPG,black-rot,black-rot,2.314998,rust,1.960296,scab,1.439976,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",black-rot,2.200928,black-rot,1.597473
+2548,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-6.JPG,scab,scab,2.076657,scab,1.784478,black-rot,1.607277,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",scab,2.016649,scab,1.515081
+1772,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-126.JPG,rust,rust,1.840716,rust,1.637817,scab,1.494740,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.871948,rust,1.340234
+1682,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-36.JPG,rust,rust,1.837241,rust,1.772503,rust,1.296074,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.794671,rust,1.325243
+1243,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1242.JPG,healthy,healthy,1.833633,healthy,2.380844,healthy,1.295630,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.815973,healthy,1.348837
+2475,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-554.JPG,black-rot,black-rot,2.242432,black-rot,1.970393,black-rot,1.565888,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",scab,2.025239,black-rot,1.612247
+1811,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-165.JPG,rust,rust,1.883945,,21.830374,rust,1.286811,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.841234,rust,1.295454
+765,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-764.JPG,healthy,healthy,1.884742,,20.551623,healthy,1.362514,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.837560,healthy,1.365624
+1390,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1389.JPG,healthy,healthy,1.863654,healthy,1.783320,black-rot,1.583766,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.870200,healthy,1.331776
+2358,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-437.JPG,black-rot,black-rot,2.254699,black-rot,2.899371,scab,1.422129,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",black-rot,2.204937,black-rot,1.566676
+2557,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-15.JPG,scab,scab,2.099314,healthy,2.555506,scab,1.406003,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",scab,2.053466,scab,1.432142
+3126,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-584.JPG,scab,scab,2.061344,healthy,2.010223,black-rot,1.564843,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",scab,2.002681,scab,1.433785
+2267,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-346.JPG,black-rot,black-rot,2.243346,black-rot,1.989217,black-rot,1.633015,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",scab,2.002119,black-rot,1.561569
+1580,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1579.JPG,healthy,healthy,1.885098,healthy,1.646856,healthy,1.277574,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.803022,healthy,1.276799
+1386,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1385.JPG,healthy,healthy,1.844546,healthy,1.646562,healthy,1.291395,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.778331,healthy,1.316229
+3039,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-497.JPG,scab,scab,2.062787,scab,1.786888,black-rot,1.565030,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",scab,1.979251,scab,1.390863
+2159,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-238.JPG,black-rot,black-rot,2.255638,black-rot,1.953938,scab,1.438308,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",scab,2.020214,black-rot,1.614434
+2999,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-457.JPG,scab,scab,2.077960,scab,1.756835,scab,1.434464,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",rust,1.840966,scab,1.435612
+2752,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-210.JPG,scab,scab,2.123836,scab,2.090089,scab,1.420443,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",scab,2.067152,scab,1.478479
+1657,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-11.JPG,rust,rust,1.837074,rust,1.727015,scab,1.427855,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.832090,rust,1.358552
+2298,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-377.JPG,black-rot,black-rot,2.292975,black-rot,2.164284,scab,1.447993,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",scab,2.010604,black-rot,1.635050
+2321,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-400.JPG,black-rot,rust,1.891632,black-rot,1.956007,black-rot,1.553665,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",scab,2.018782,black-rot,1.630298
+1852,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-206.JPG,rust,rust,1.867455,rust,1.623383,black-rot,1.613266,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.850455,rust,1.338049
+3068,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-526.JPG,scab,scab,2.069261,scab,2.804764,scab,1.437708,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",rust,1.835094,scab,1.463264
+2533,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-612.JPG,black-rot,black-rot,2.287436,black-rot,1.965808,scab,1.431209,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",scab,2.002928,black-rot,1.601903
+3087,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-545.JPG,scab,scab,2.119379,scab,1.824723,scab,1.431207,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",scab,1.997606,scab,1.473046
+1859,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-213.JPG,rust,rust,1.909121,rust,1.683937,rust,1.307921,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.816428,rust,1.291207
+943,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-942.JPG,healthy,healthy,1.888118,healthy,1.629356,scab,1.431307,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",scab,2.001517,healthy,1.289824
+2074,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-153.JPG,black-rot,black-rot,2.240496,black-rot,1.950846,scab,1.432372,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",healthy,1.815784,black-rot,1.560624
+3021,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-479.JPG,scab,scab,2.064227,scab,2.815053,rust,1.265505,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",rust,1.804637,scab,1.456961
+3053,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-511.JPG,scab,scab,2.073884,scab,1.836771,scab,1.425561,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",rust,1.803317,scab,1.442472
+1764,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-118.JPG,rust,rust,1.973312,scab,1.810635,scab,1.426960,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.791781,rust,1.309440
+2465,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-544.JPG,black-rot,black-rot,2.226400,healthy,1.621725,scab,1.412299,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",healthy,1.819535,black-rot,1.578425
+2820,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-278.JPG,scab,scab,2.090551,scab,1.814016,scab,1.413687,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",scab,2.013004,scab,1.446877
+1746,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-100.JPG,rust,rust,1.852409,rust,1.668027,black-rot,1.563867,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.828682,rust,1.332600
+241,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-240.JPG,healthy,healthy,1.878918,healthy,1.626010,healthy,1.279070,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.794740,healthy,1.263097
+2575,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-33.JPG,scab,scab,2.051440,scab,1.792863,black-rot,1.520796,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",scab,2.019853,scab,1.434174
+1707,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-61.JPG,rust,rust,1.844863,rust,1.638832,black-rot,1.541890,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.796229,rust,1.298802
+2141,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-220.JPG,black-rot,black-rot,2.234337,rust,1.941623,scab,1.425940,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",scab,1.993577,black-rot,1.601164
+2383,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-462.JPG,black-rot,black-rot,2.316161,black-rot,1.996974,black-rot,1.539435,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",rust,1.817283,black-rot,1.566782
+3152,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-610.JPG,scab,scab,2.136449,scab,1.825443,black-rot,1.559001,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",scab,2.006058,scab,1.450886
+1405,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1404.JPG,healthy,healthy,1.879701,healthy,1.636278,scab,1.396408,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.807695,healthy,1.267206
+1876,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-230.JPG,rust,rust,1.862030,rust,1.807679,rust,1.238012,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",scab,2.004836,rust,1.274055
+33,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-32.JPG,healthy,healthy,1.881510,healthy,1.656470,healthy,1.324980,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.879070,healthy,1.288260
+1825,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-179.JPG,rust,rust,1.867280,rust,2.594309,rust,1.294312,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.796401,rust,1.326217
+1911,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-265.JPG,rust,rust,1.859029,rust,1.810097,scab,1.424423,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.805704,rust,1.336059
+630,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-629.JPG,healthy,healthy,1.869195,healthy,1.631404,healthy,1.274957,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.804592,healthy,1.279756
+1841,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-195.JPG,rust,rust,1.873776,rust,1.659048,scab,1.417798,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.823413,rust,1.301177
+1758,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-112.JPG,rust,rust,1.863379,rust,1.655654,scab,1.386990,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.910819,rust,1.340102
+1702,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-56.JPG,rust,rust,1.833606,rust,1.650785,rust,1.247533,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.800995,rust,1.253663
+1910,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-264.JPG,rust,rust,1.840003,rust,1.666223,rust,1.279905,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.822390,rust,1.268710
+1235,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1234.JPG,healthy,healthy,1.859776,healthy,1.673512,healthy,1.275794,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.798100,healthy,1.239595
+2864,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-322.JPG,scab,scab,2.064851,scab,1.823167,scab,1.401672,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",rust,1.791324,scab,1.420870
+1822,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-176.JPG,rust,rust,1.894452,rust,1.638415,scab,1.438821,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.820378,rust,1.284453
+2217,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-296.JPG,black-rot,black-rot,2.261455,black-rot,1.957219,black-rot,1.561383,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",rust,1.788858,black-rot,1.576706
+70,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-69.JPG,healthy,healthy,1.935683,healthy,1.694264,healthy,1.275899,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.864965,healthy,1.268776
+367,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-366.JPG,healthy,healthy,1.834790,healthy,1.640119,healthy,1.261354,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.804511,healthy,1.288186
+2303,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-382.JPG,black-rot,black-rot,2.270837,black-rot,2.017372,scab,1.406775,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",rust,1.793942,black-rot,1.566870
+1344,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1343.JPG,healthy,healthy,1.883244,healthy,1.624360,healthy,1.262787,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.820606,healthy,1.304152
+423,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-422.JPG,healthy,healthy,1.898632,healthy,1.645590,healthy,1.271587,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.812561,healthy,1.264685
+2966,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-424.JPG,scab,scab,2.085123,scab,1.853457,scab,1.405057,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",rust,1.800996,scab,1.397041
+2389,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-468.JPG,black-rot,black-rot,2.271616,black-rot,1.944556,rust,1.264072,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",scab,1.995474,scab,1.418605
+2813,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-271.JPG,scab,scab,2.082290,scab,1.817966,scab,1.472373,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",rust,1.828951,scab,1.443658
+245,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-244.JPG,healthy,healthy,1.849486,healthy,1.798722,healthy,1.285362,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.817446,healthy,1.293467
+1156,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1155.JPG,healthy,healthy,1.858655,healthy,1.635359,healthy,1.315315,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.826776,healthy,1.311790
+2097,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-176.JPG,black-rot,black-rot,2.267798,healthy,1.673690,scab,1.439051,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",scab,2.066468,black-rot,1.574056
+2741,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-199.JPG,scab,scab,2.087803,scab,1.804898,black-rot,1.555487,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",black-rot,2.188746,scab,1.479461
+1573,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1572.JPG,healthy,healthy,1.873796,healthy,1.782503,healthy,1.275923,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.848491,healthy,1.363111
+3168,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-626.JPG,scab,scab,2.066039,scab,2.517202,scab,1.417356,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",rust,1.828243,scab,1.464466
+3094,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-552.JPG,scab,scab,2.044708,scab,1.798168,scab,1.466828,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",scab,2.057020,scab,1.431358
+1685,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-39.JPG,rust,rust,1.837503,rust,1.719853,rust,1.295488,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.808361,rust,1.305738
+3113,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-571.JPG,scab,scab,2.076416,scab,1.872759,scab,1.424766,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",scab,2.015530,scab,1.535416
+1507,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1506.JPG,healthy,healthy,1.834085,healthy,1.625128,healthy,1.268704,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.794833,healthy,1.311257
+3036,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-494.JPG,scab,scab,2.046284,scab,1.807196,black-rot,1.534914,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",scab,1.992344,scab,1.451775
+742,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-741.JPG,healthy,healthy,1.854344,healthy,1.673659,scab,1.432282,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",rust,1.832347,healthy,1.291733
+2168,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-247.JPG,black-rot,black-rot,2.252027,rust,1.638937,rust,1.259446,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",rust,1.820218,black-rot,1.626589
+3075,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-533.JPG,scab,scab,2.088990,scab,1.797264,black-rot,1.561085,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",black-rot,2.210425,scab,1.445163
+1363,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1362.JPG,healthy,healthy,1.849963,healthy,2.626148,healthy,1.327626,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.850868,healthy,1.397624
+1728,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-82.JPG,rust,rust,1.839739,rust,1.622854,rust,1.257569,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.824142,rust,1.288845
+2770,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-228.JPG,scab,scab,2.050658,scab,1.817443,scab,1.396401,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",scab,2.075435,scab,1.460722
+2326,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-405.JPG,black-rot,black-rot,2.288998,black-rot,2.209764,black-rot,1.693201,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",black-rot,2.214514,black-rot,1.581641
+868,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-867.JPG,healthy,healthy,1.905832,healthy,1.640251,healthy,1.308215,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.872262,healthy,1.303556
+2659,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-117.JPG,scab,scab,2.069107,scab,1.794154,scab,1.443604,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",rust,1.819456,scab,1.447756
+1846,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-200.JPG,rust,rust,1.842643,rust,1.637085,rust,1.289396,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.872671,rust,1.340659
+1678,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-32.JPG,rust,rust,1.892033,rust,1.660037,rust,1.275500,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""rust""}",rust,1.820181,rust,1.338564
+2552,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-10.JPG,scab,scab,2.018074,scab,1.802674,black-rot,1.596517,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",rust,1.805065,scab,1.477327
+2439,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-518.JPG,black-rot,black-rot,2.290723,black-rot,1.975551,scab,1.406442,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",scab,2.010732,black-rot,1.584757
+3089,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-547.JPG,scab,scab,2.069505,scab,1.792203,scab,1.369624,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""scab""}",rust,1.802345,scab,1.455166
+1991,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-70.JPG,black-rot,black-rot,2.256091,black-rot,1.951243,scab,1.419808,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""black-rot""}",rust,1.875716,black-rot,1.571599
+343,https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-342.JPG,healthy,healthy,1.878999,healthy,1.639536,healthy,1.253780,0.9,"system
+You are a helpful assistant.
+user
+Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {
+  ""categories"": [
+    ""black-rot"",
+    ""healthy"",
+    ""rust"",
+    ""scab""
+  ]
+} Provide your final classification in the following JSON format without explanations: {""category"": ""chosen_category_name""}
+assistant
+{""category"": ""healthy""}",healthy,1.845559,healthy,1.299422

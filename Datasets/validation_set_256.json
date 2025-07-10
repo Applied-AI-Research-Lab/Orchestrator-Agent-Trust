@@ -1,0 +1,3330 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-128.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-222.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-173.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-73.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-153.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-178.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-30.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-212.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-69.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-217.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-6.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-905.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-74.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1100.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-606.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-163.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-357.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-148.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-568.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-286.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-340.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-60.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-203.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-236.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-0.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-124.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-707.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-97.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-192.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-590.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-59.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-537.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-19.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-529.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-318.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-477.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1591.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-394.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-916.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-300.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-209.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-215.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-68.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-553.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-249.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-137.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-15.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-264.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-65.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-210.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-706.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-28.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-443.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-310.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-65.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-101.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-291.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1278.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-174.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-67.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-421.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-549.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-142.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-338.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-351.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-339.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-2.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-162.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-204.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-132.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-90.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-838.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-620.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-155.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-331.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-250.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-268.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1453.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-194.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-248.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-617.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1634.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-531.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-552.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-155.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-162.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-186.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-573.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1567.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-4.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1365.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-290.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-430.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-132.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1611.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-516.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1273.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-86.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-529.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-233.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-816.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-845.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-201.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-319.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-70.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-727.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-408.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-84.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-114.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-231.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-679.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-270.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-271.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-352.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1240.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-608.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-393.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-212.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-135.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-316.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-45.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-887.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"healthy\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-518.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-277.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"black-rot\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-258.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"rust\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-145.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-396.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze the provided image of an apple leaf using your computer vision capabilities. Classify the leaf into the most appropriate category based on its condition, choosing from the predefined list: {\n  \"categories\": [\n    \"black-rot\",\n    \"healthy\",\n    \"rust\",\n    \"scab\"\n  ]\n} Provide your final classification in the following JSON format without explanations: {\"category\": \"chosen_category_name\"}"
+          },
+          {
+            "type": "image",
+            "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-56.JPG"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"category\": \"scab\"}"
+          }
+        ]
+      }
+    ]
+  }
+]
