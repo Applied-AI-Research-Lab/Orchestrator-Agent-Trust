@@ -1,0 +1,3216 @@
+{
+  "summary": {
+    "baseline": 0.48125,
+    "trust_only": 0.5875,
+    "rag_only": 0.85625,
+    "combined": 0.85625,
+    "trust_contribution": 0.10625000000000001,
+    "rag_contribution": 0.37499999999999994,
+    "expected_additive": 0.9624999999999999,
+    "synergy": -0.10624999999999996
+  },
+  "trust_only_predictions": [
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-144.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-810.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-433.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-588.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-220.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.85,
+      "qwen_trust": 0.2878183069511355,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1582.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-232.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-208.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-231.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-593.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.9,
+      "qwen_trust": 0.30474879559532,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-473.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1165.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-199.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.9,
+      "qwen_trust": 0.30474879559532,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-158.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-602.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1089.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-541.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-159.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.9,
+      "qwen_trust": 0.30474879559532,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-490.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-109.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-184.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.85,
+      "qwen_trust": 0.2878183069511355,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-180.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.9,
+      "qwen_trust": 0.30474879559532,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-212.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "rust",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-81.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-77.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-613.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-82.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "healthy",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.8,
+      "qwen_trust": 0.27088781830695113,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-99.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-122.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-11.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1235.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-224.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-2.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-328.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-272.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.9,
+      "qwen_trust": 0.30474879559532,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-353.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1325.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-101.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-499.JPG",
+      "true_label": "scab",
+      "final_prediction": "rust",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-256.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-305.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-261.JPG",
+      "true_label": "scab",
+      "final_prediction": "healthy",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-92.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-331.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-60.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-135.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-145.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.85,
+      "qwen_trust": 0.2878183069511355,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-44.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.9,
+      "qwen_trust": 0.30474879559532,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-617.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "rust",
+      "qwen_pred": "scab",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-452.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-265.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-303.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-176.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1018.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-51.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-141.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-493.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1376.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-165.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-116.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-680.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-141.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-301.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "rust",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.9,
+      "qwen_trust": 0.30474879559532,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-249.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.9,
+      "qwen_trust": 0.30474879559532,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1436.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1537.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-425.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-595.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-289.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-72.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-287.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-6.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-126.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.9,
+      "qwen_trust": 0.30474879559532,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-36.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1242.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-554.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-165.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-764.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1389.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-437.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-15.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-584.JPG",
+      "true_label": "scab",
+      "final_prediction": "black-rot",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-346.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1579.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1385.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-497.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-238.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-457.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.9,
+      "qwen_trust": 0.30474879559532,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-210.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-11.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-377.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-400.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.85,
+      "qwen_trust": 0.2878183069511355,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-206.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-526.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.9,
+      "qwen_trust": 0.30474879559532,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-612.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-545.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-213.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-942.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-153.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-479.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.85,
+      "qwen_trust": 0.2878183069511355,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-511.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.85,
+      "qwen_trust": 0.2878183069511355,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-118.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-544.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-278.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-100.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-240.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-33.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.85,
+      "qwen_trust": 0.2878183069511355,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-61.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-220.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-462.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-610.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1404.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-230.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-32.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-179.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.85,
+      "qwen_trust": 0.2878183069511355,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-265.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-629.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-195.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-112.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-56.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-264.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1234.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-322.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.9,
+      "qwen_trust": 0.30474879559532,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-176.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-296.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.9,
+      "qwen_trust": 0.30474879559532,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-69.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-366.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-382.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1343.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-422.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-424.JPG",
+      "true_label": "scab",
+      "final_prediction": "black-rot",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.9,
+      "qwen_trust": 0.30474879559532,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-468.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-271.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-244.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1155.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-176.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "healthy",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.85,
+      "qwen_trust": 0.2878183069511355,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-199.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1572.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-626.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-552.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-39.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-571.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1506.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-494.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.9,
+      "qwen_trust": 0.30474879559532,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-741.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.9,
+      "gpt_trust": 0.4064965197215778
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-247.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-533.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1362.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-82.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-228.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-405.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.9,
+      "qwen_trust": 0.30474879559532,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-867.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "qwen_trust": 0.3386097728836889,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-117.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-200.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-32.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-10.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.9,
+      "qwen_trust": 0.30474879559532,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-518.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-547.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-70.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85,
+      "gpt_trust": 0.3839133797370457
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-342.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "qwen_trust": 0.3216792842395044,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95,
+      "gpt_trust": 0.4290796597061099
+    }
+  ],
+  "rag_only_predictions": [
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-144.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 1.0,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-810.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-433.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-588.JPG",
+      "true_label": "scab",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-220.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.95,
+      "gpt_pred": "rust",
+      "gpt_conf": 1.0
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1582.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.98
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-232.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.95,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-208.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-231.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-593.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-473.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1165.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.8
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-199.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.88,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-158.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.92,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-602.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1089.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-541.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-159.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.95,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-490.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.95,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-109.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-184.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 1.0,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.92
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-180.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.89,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-212.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-81.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.95,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-77.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-613.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.85,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.8
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-82.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "healthy",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-99.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-122.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 1.0,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-11.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.92,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1235.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.9,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-224.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 1.0,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-2.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.93,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.92
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-328.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-272.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.95,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-353.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1325.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-101.JPG",
+      "true_label": "scab",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-499.JPG",
+      "true_label": "scab",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.78,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.75
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-256.JPG",
+      "true_label": "scab",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.95,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.7
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-305.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-261.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.87,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.6
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-92.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-331.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-60.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 1.0,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-135.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.85,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-145.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.95,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-44.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 1.0,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-617.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-452.JPG",
+      "true_label": "scab",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.89,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.75
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-265.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-303.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.99,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.98
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-176.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "scab",
+      "gpt_conf": 1.0
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1018.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.85,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-51.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-141.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "rust",
+      "gpt_conf": 1.0
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-493.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "gpt_pred": "healthy",
+      "gpt_conf": 1.0
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1376.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-165.JPG",
+      "true_label": "scab",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-116.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-680.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-141.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-301.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-249.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 1.0,
+      "gpt_pred": "rust",
+      "gpt_conf": 1.0
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1436.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1537.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-425.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-595.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 1.0,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.8
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-289.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.96,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-72.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.9,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-287.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-6.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-126.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.9,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-36.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 1.0,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1242.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-554.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-165.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-764.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1389.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-437.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-15.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-584.JPG",
+      "true_label": "scab",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.85,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.7
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-346.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.75,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1579.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1385.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.98
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-497.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-238.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-457.JPG",
+      "true_label": "scab",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-210.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-11.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.92
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-377.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-400.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-206.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 1.0,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-526.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.6,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-612.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.98,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-545.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.7
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-213.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 1.0,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-942.JPG",
+      "true_label": "healthy",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-153.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-479.JPG",
+      "true_label": "scab",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.95,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.75
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-511.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.93,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-118.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.8
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-544.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.6
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-278.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.6
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-100.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.92,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-240.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.85,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-33.JPG",
+      "true_label": "scab",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-61.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 1.0,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-220.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-462.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-610.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.79,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1404.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.75,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-230.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.9,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-32.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-179.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 1.0,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-265.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.93,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-629.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-195.JPG",
+      "true_label": "rust",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 1.0,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-112.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "gpt_pred": "rust",
+      "gpt_conf": 1.0
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-56.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "rust",
+      "gpt_conf": 1.0
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-264.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.95,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1234.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-322.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.85,
+      "gpt_pred": "scab",
+      "gpt_conf": 1.0
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-176.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-296.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.9,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-69.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-366.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.89,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-382.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.95,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1343.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-422.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-424.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-468.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.85,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-271.JPG",
+      "true_label": "scab",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.95,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-244.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1155.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-176.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-199.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1572.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-626.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.7
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-552.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.85,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-39.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.92,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-571.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.9,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1506.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-494.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.8,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-741.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.9,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-247.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.92,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-533.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "scab",
+      "gpt_conf": 1.0
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-1362.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 1.0,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.98
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-82.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 1.0,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-228.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.75
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-405.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-867.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-117.JPG",
+      "true_label": "scab",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.85
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-200.JPG",
+      "true_label": "rust",
+      "final_prediction": "rust",
+      "qwen_pred": "rust",
+      "qwen_conf": 0.92,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.95
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/rust/rust-32.JPG",
+      "true_label": "rust",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "gpt_pred": "rust",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-10.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.75,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.75
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-518.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/scab/scab-547.JPG",
+      "true_label": "scab",
+      "final_prediction": "scab",
+      "qwen_pred": "scab",
+      "qwen_conf": 0.95,
+      "gpt_pred": "scab",
+      "gpt_conf": 0.9
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/black-rot/black-rot-70.JPG",
+      "true_label": "black-rot",
+      "final_prediction": "black-rot",
+      "qwen_pred": "black-rot",
+      "qwen_conf": 0.87,
+      "gpt_pred": "black-rot",
+      "gpt_conf": 0.87
+    },
+    {
+      "image": "https://storage.googleapis.com/kroumeliotis-image-bucket/plant-disease-detection/Apple/256/healthy/healthy-342.JPG",
+      "true_label": "healthy",
+      "final_prediction": "healthy",
+      "qwen_pred": "healthy",
+      "qwen_conf": 0.95,
+      "gpt_pred": "healthy",
+      "gpt_conf": 0.95
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "confidence_intervals": {
+    "Exp I": {
+      "Qwen": {
+        "accuracy": 0.45,
+        "ci_lower": 0.375,
+        "ci_upper": 0.525,
+        "confidence_level": 0.95,
+        "n_iterations": 10000
+      },
+      "GPT": {
+        "accuracy": 0.56875,
+        "ci_lower": 0.49375,
+        "ci_upper": 0.64375,
+        "confidence_level": 0.95,
+        "n_iterations": 10000
+      },
+      "Orchestrator": {
+        "accuracy": 0.48125,
+        "ci_lower": 0.40625,
+        "ci_upper": 0.55625,
+        "confidence_level": 0.95,
+        "n_iterations": 10000
+      }
+    },
+    "Exp II": {
+      "Qwen": {
+        "accuracy": 0.95625,
+        "ci_lower": 0.925,
+        "ci_upper": 0.9875,
+        "confidence_level": 0.95,
+        "n_iterations": 10000
+      },
+      "GPT": {
+        "accuracy": 0.98125,
+        "ci_lower": 0.95625,
+        "ci_upper": 1.0,
+        "confidence_level": 0.95,
+        "n_iterations": 10000
+      },
+      "Orchestrator": {
+        "accuracy": 0.975,
+        "ci_lower": 0.95,
+        "ci_upper": 0.99375,
+        "confidence_level": 0.95,
+        "n_iterations": 10000
+      }
+    },
+    "Exp III": {
+      "Qwen": {
+        "accuracy": 0.73125,
+        "ci_lower": 0.6625,
+        "ci_upper": 0.8,
+        "confidence_level": 0.95,
+        "n_iterations": 10000
+      },
+      "GPT": {
+        "accuracy": 0.875,
+        "ci_lower": 0.81875,
+        "ci_upper": 0.925,
+        "confidence_level": 0.95,
+        "n_iterations": 10000
+      },
+      "Orchestrator": {
+        "accuracy": 0.85625,
+        "ci_lower": 0.8,
+        "ci_upper": 0.90625,
+        "confidence_level": 0.95,
+        "n_iterations": 10000
+      }
+    }
+  },
+  "mcnemar_tests": {
+    "Qwen (Exp I vs II)": {
+      "statistic": 81.0,
+      "p_value": 0.0,
+      "contingency": {
+        "both_correct": 72,
+        "only_pred1_correct": 0,
+        "only_pred2_correct": 81,
+        "both_wrong": 7
+      }
+    },
+    "GPT (Exp I vs II)": {
+      "statistic": 66.0,
+      "p_value": 4.440892098500626e-16,
+      "contingency": {
+        "both_correct": 91,
+        "only_pred1_correct": 0,
+        "only_pred2_correct": 66,
+        "both_wrong": 3
+      }
+    },
+    "Orch (Exp I vs II)": {
+      "statistic": 79.0,
+      "p_value": 0.0,
+      "contingency": {
+        "both_correct": 77,
+        "only_pred1_correct": 0,
+        "only_pred2_correct": 79,
+        "both_wrong": 4
+      }
+    },
+    "Qwen (Exp I vs III)": {
+      "statistic": 25.0,
+      "p_value": 5.733031437360481e-07,
+      "contingency": {
+        "both_correct": 54,
+        "only_pred1_correct": 18,
+        "only_pred2_correct": 63,
+        "both_wrong": 25
+      }
+    },
+    "GPT (Exp I vs III)": {
+      "statistic": 42.12280701754386,
+      "p_value": 8.571765519604924e-11,
+      "contingency": {
+        "both_correct": 87,
+        "only_pred1_correct": 4,
+        "only_pred2_correct": 53,
+        "both_wrong": 16
+      }
+    },
+    "Orch (Exp I vs III)": {
+      "statistic": 43.90243902439025,
+      "p_value": 3.4515834634873954e-11,
+      "contingency": {
+        "both_correct": 66,
+        "only_pred1_correct": 11,
+        "only_pred2_correct": 71,
+        "both_wrong": 12
+      }
+    },
+    "Qwen (Exp II vs III)": {
+      "statistic": 27.0,
+      "p_value": 2.0345546147826354e-07,
+      "contingency": {
+        "both_correct": 111,
+        "only_pred1_correct": 42,
+        "only_pred2_correct": 6,
+        "both_wrong": 1
+      }
+    },
+    "GPT (Exp II vs III)": {
+      "statistic": 11.130434782608695,
+      "p_value": 0.0008492268308192275,
+      "contingency": {
+        "both_correct": 137,
+        "only_pred1_correct": 20,
+        "only_pred2_correct": 3,
+        "both_wrong": 0
+      }
+    },
+    "Orch (Exp II vs III)": {
+      "statistic": 14.44,
+      "p_value": 0.00014469608785028232,
+      "contingency": {
+        "both_correct": 134,
+        "only_pred1_correct": 22,
+        "only_pred2_correct": 3,
+        "both_wrong": 1
+      }
+    }
+  },
+  "paired_ttests": {
+    "Qwen (Exp I vs II)": {
+      "t_statistic": -1.9978299355461722,
+      "p_value": 0.04744041576427485,
+      "mean_difference": -0.0070624999999999855,
+      "std_difference": 0.04471568991448417,
+      "cohens_d": -0.15794232434983232
+    },
+    "GPT (Exp I vs II)": {
+      "t_statistic": -16.53462499813523,
+      "p_value": 2.2761534188038313e-36,
+      "mean_difference": -0.0520625,
+      "std_difference": 0.03982819826904664,
+      "cohens_d": -1.307176881271617
+    },
+    "Orchestrator (Exp I vs II)": {
+      "t_statistic": -8.431152425213266,
+      "p_value": 1.9535602810695563e-14,
+      "mean_difference": -0.023937499999999994,
+      "std_difference": 0.03591301291809621,
+      "cohens_d": -0.6665411240931591
+    },
+    "Qwen (Exp I vs III)": {
+      "t_statistic": 4.484217260882002,
+      "p_value": 1.3951116168464016e-05,
+      "mean_difference": 0.026437499999999982,
+      "std_difference": 0.07457508035572534,
+      "cohens_d": 0.3545085016857149
+    },
+    "GPT (Exp I vs III)": {
+      "t_statistic": -2.800149788720853,
+      "p_value": 0.00574146754750829,
+      "mean_difference": -0.015875000000000007,
+      "std_difference": 0.07171210348444343,
+      "cohens_d": -0.22137127804992898
+    },
+    "Orchestrator (Exp I vs III)": {
+      "t_statistic": 0.24489411028131766,
+      "p_value": 0.8068541940925413,
+      "mean_difference": 0.0010000000000000065,
+      "std_difference": 0.05165134688679594,
+      "cohens_d": 0.019360579351235557
+    }
+  }
+}
